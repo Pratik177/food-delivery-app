@@ -19,4 +19,52 @@
     font-size: 14px;
     animation: fadeIn 0.5s;
 }
+.login-popup-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.login-popup-title img{
+    width: 16px;
+    cursor: pointer;
+}
+.login-popup-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.login-popup-inputs input{
+    outline: none;
+    border: 1px solid #e2e2e2;
+    padding: 10px;
+    border-radius: 4px;
+}
+.login-popup-container button{
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: tomato;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.login-popup-condition{
+    display: flex;
+    align-items: start;
+    gap: 5px;
+    margin-top:-15px ;
+
+}
+.login-popup-condition input{
+    margin-top: 5px;
+    cursor: pointer;
+}
+.login-popup p span{
+    color: tomato;
+    cursor: pointer;
+}
+
+
 
